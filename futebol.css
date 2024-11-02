@@ -1,8 +1,185 @@
 .cabecalho {
-    width: 40px;
-    height: 40px;
-    background-color: blue;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 20%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 20px;
+}
+
+.bt2, .bt3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.opcoes, .engrenagem {
+    display: flex;
+    width: 20%;
+    height: 60px;
+    margin-left: 35px;
+    align-items: center;
+    justify-content: end;
+}
+
+.entrar {
+    display: flex;
+    width: 30%;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+ #buton_par {
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    border-style: solid ;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    font-weight: bold;
+    
+}
+
+#buton_par:hover {
+    width: 150px;
+    height: 70px;
+    transition: 1s;
+}
+
+#buton_etn {
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    border-style: solid ;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    transition: 1s;
+    font-weight: bold;
+}
+
+#buton_etn:hover {
+    width: 150px;
+    height: 70px;
+    transition: 1s;
+}
+
+
+
+.inicio {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     
+    
+    
+    
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/b2248299-35a5-4961-87f9-fd10e294cf21.png);
+    background-color: black;
+    background-size: cover;  
+    flex-direction: column; 
+}
+
+.txt p{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    filter: brightness(200%);
+    color: white;
+}
+
+ #buton1 {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    border-style:  solid;
+    border-radius: 10px;
+    margin-top: 25px;
+    background-color: white;
+    transition: 1s;
+}
+
+#buton1:hover {
+    width: 300px;
+    height: 60px;
+    transition: 1s;
+}
+
+.corpo {
+    width: 100%;
+    height: 600px;
+
+}
+
+.rodape {
+    width: 100%;
+    height: 150px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.informacoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#contato {
+    margin-left: 15px;
 }
